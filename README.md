@@ -1,2 +1,2 @@
 # ECG_Classification
-This project classifies the ECG Heartbeat Categorization Dataset into 5 classes using CNNs and Transfer Learning.
+This project classifies the ECG Heartbeat Categorization Dataset into 5 classes using CNNs and the pre-trained model Inception V3. The signals correspond to electrocardiogram (ECG) shapes of heartbeats for the normal case and the cases affected by different arrhythmias and myocardial infarction. The dataset can be found [here](https://www.kaggle.com/datasets/shayanfazeli/heartbeat).
