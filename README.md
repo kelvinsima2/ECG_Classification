@@ -26,7 +26,9 @@ The training and validation accuracy and loss graphs are shown below: <br />
 
 <br />
 The confusion matrix for the test data is shown below: <br />
+
 ![confusion matrix](/images/cmatrix.png)
+<br />
 
 Overall, the testing accuracy for the model was 86.6%.
 
