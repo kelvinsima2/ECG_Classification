@@ -18,6 +18,6 @@ The model is summarized as follows:
 *  outputs = tf.keras.layers.Dense(5, activation='softmax')(x)
 
 # Results
-The training and validation accuracy and loss graphs are shown below:
+The training and validation accuracy and loss graphs are shown below: <br />
 ![Accuracy and Loss Graphs](/images/accuracy.png)
 
