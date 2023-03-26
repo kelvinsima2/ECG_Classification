@@ -9,7 +9,7 @@ the ECG signals were converted into wavelet transforms which show the magnitude 
 <br />
 
 # Model
-The model is summarized as follows: 
+The deep learning framework used in this project is Tensorflow. The model is summarized as follows (the base model is the Inception V3 model found [here](https://keras.io/api/applications/inceptionv3/): 
 *  inputs = tf.keras.Input(shape=IMG_SHAPE)
 *  x = preprocess_input(inputs)
 *  x = base_model(x, training=False)
