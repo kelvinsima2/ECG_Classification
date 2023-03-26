@@ -19,5 +19,5 @@ The model is summarized as follows:
 
 # Results
 The training and validation accuracy and loss graphs are shown below:
-![https://github.com/kelvinsima2/ECG_Classification/blob/main/images/accuracy.png]
+![Accuracy and Loss Graphs](/images/accuracy.png)
 
