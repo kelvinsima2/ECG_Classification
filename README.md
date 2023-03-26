@@ -19,5 +19,5 @@ The model is summarized as follows:
 
 # Results
 The training and validation accuracy and loss graphs are shown below:
-![/images/accuracy.png]
+![ECG_Classification/images/accuracy.png]
 
