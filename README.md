@@ -7,7 +7,7 @@ This project classifies the ECG Heartbeat Categorization Dataset into 5 classes 
 Data was prepared as detailed in the [code](https://github.com/kelvinsima2/ECG_Classification/blob/main/ECG_Classification.ipynb). The training data was sampled then
 the ECG signals were converted into wavelet transforms which show the magnitude of freqencies varying over time. An example of a wavelet transform for one of the ECG signals is shown below: <br />
 ![wavelet transform](/images/wavelet.png]
-<br />
+
 
 # Model
 The deep learning framework used in this project is Tensorflow. The model is summarized as follows (the base model is the Inception V3 model found [here](https://keras.io/api/applications/inceptionv3/)): 
@@ -21,7 +21,6 @@ The deep learning framework used in this project is Tensorflow. The model is sum
 *  x = tf.keras.layers.Dense(10, activation='relu')(x)
 *  outputs = tf.keras.layers.Dense(5, activation='softmax')(x)
 
-<br />
 # Results
 The training and validation accuracy and loss graphs are shown below: <br />
 ![Accuracy and Loss Graphs](/images/accuracy.png)
